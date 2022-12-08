@@ -1,0 +1,19 @@
+import React from 'react'
+import styles from '../styles/Blog.module.css'
+
+const about = () => {
+  return (
+    <div className={styles.container}>
+    <main className={styles.main}>
+    <h1>About Hunting Coder</h1>
+    <h3>Why Hunting Coder?</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sequi repudiandae id vero maiores a eveniet consequatur dolore quis unde, optio magnam reiciendis, ea quasi. Iste neque aliquam atque nam error corporis laudantium dolore id voluptatibus. Doloribus dolorem aut officiis nesciunt, provident facilis magni dignissimos sequi fugit laboriosam! Sit consequatur necessitatibus, laborum recusandae sint aut fuga dicta rem corporis obcaecati! Sunt aliquam dolore doloribus odit voluptatibus possimus placeat, praesentium doloremque culpa impedit voluptate tempore dolorum neque labore cum tempora tenetur ea nostrum perspiciatis. Necessitatibus at officiis aperiam eveniet! Eum soluta, earum voluptas voluptatem repellendus voluptates? Reprehenderit, perspiciatis. Laborum modi laboriosam saepe quos? Culpa, labore obcaecati Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum mollitia necessitatibus quaerat nobis omnis veniam a, deserunt est obcaecati voluptate, iure maxime natus consectetur? Facilis nihil recusandae officiis! Non facilis eius iure! Quia officiis maiores soluta, quo totam possimus corporis cum dolores inventore omnis ipsum. Quod nobis voluptatem magni ipsam? Omnis, laboriosam dolorum, ipsam laborum fugit vel voluptate ab enim at ea quae maiores iusto officia quidem natus dignissimos laudantium fuga assumenda in consequatur vitae culpa illum? Voluptatibus dolorum pariatur at doloribus dolore. Sapiente repudiandae accusamus voluptas possimus iste sunt suscipit molestiae eaque, animi, atque necessitatibus! Recusandae molestiae architecto quia vero, doloremque eos nam.</p>
+    <br /><br />
+    <h3>Join Us</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit modi accusantium sequi maiores ea magnam reiciendis, culpa saepe ullam necessitatibus beatae perspiciatis qui asperiores eligendi vel optio tempore. Sed beatae ex placeat vero distinctio a libero dolorum consequatur id debitis excepturi dolor alias non, eligendi sapiente accusamus, voluptate perferendis earum. Obcaecati ducimus totam iusto vitae quisquam id, atque distinctio quasi, dolores fugiat saepe corporis non facilis. Alias quam perferendis repudiandae iusto labore omnis consectetur earum eius dolorem ab veniam nisi quo, laudantium doloremque odio quibusdam sit incidunt enim aliquam. Quae aliquam ipsam sequi tempore ab, excepturi, voluptatem consequatur perferendis debitis corrupti illo aliquid facere nostrum maxime temporibus molestiae eius repudiandae accusamus consectetur nesciunt adipisci expedita est cum? Perferendis amet error exercitationem. Illo nesciunt inventore consectetur at quidem neque atque recusandae eaque nulla corporis, deleniti unde, optio nobis cum soluta accusamus ducimus, repudiandae iusto deserunt fuga quasi tenetur ullam repellat? Temporibus quaerat iusto at quis rem obcaecati cumque dolore dolor nesciunt! Facilis rerum laudantium quaerat labore atque nemo quod quos nulla quidem laboriosam eum magnam necessitatibus odit, ut voluptates quae assumenda dolores beatae. Quod incidunt sint unde illum sit, rem omnis provident error maxime, mollitia cum. Praesentium saepe laudantium sequi incidunt hic ab sunt eaque quibusdam neque libero ipsa reiciendis quaerat tempore, modi, possimus beatae fugiat vitae tempora quo laboriosam placeat nulla. Quam mollitia eos optio. Possimus maiores fugit excepturi explicabo alias. Vel, perspiciatis? Consequatur, ea perspiciatis non eaque numquam deserunt quo quas, eum perferendis ullam at a totam! Tempore, qui.</p>
+    </main>
+  </div>
+  )
+}
+
+export default about

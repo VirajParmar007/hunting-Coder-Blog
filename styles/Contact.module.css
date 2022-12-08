@@ -1,0 +1,117 @@
+.container {
+    padding: 4rem 2rem;
+    width: 50vw;
+    margin: auto;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 2rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    margin: auto;   
+}
+
+.form {
+    width: 20vw;
+}
+
+.formLabel {
+    font-weight: bold;
+}
+
+.formControl {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: large;
+    padding: 8px 10px;
+    transition:all 0.08s ease-in-out ;
+    outline: none;
+}
+.formControl::-webkit-outer-spin-button,
+.formControl::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formControl::placeholder {
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.formControl::content {
+    padding-left: 5px;
+    font-size: medium;
+}
+.formControl:focus {
+    box-shadow:  0px 0px 3px orange;
+    /* outline:1px solid orange; */
+    /* border: hidden; */
+    border: 2px solid orange;
+    
+}
+
+.mb3 {
+    margin: 20px 0px;
+}
+
+.submit{
+    display: flex;
+    scale: 115%;
+    background-color:rgb(255, 195, 66);
+    border: 1px solid rgb(139, 110, 55);
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: auto;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.submit:hover{
+    background-color: orange;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0px 0px 5px orange;
+    /* border: 1px solid white; */
+    outline: none;
+}
+
+.submit a{
+    padding: 1px;
+}
+
+@media only screen and (max-width: 600px){
+    .container {
+        padding: 4rem 2rem;
+        width: 100vw;   
+    }
+    .main {
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    .form {
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container {
+        padding: 4rem 2rem;
+        width: 100vw;   
+    }
+    .main {
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        width:30vw;
+    }
+    .form {
+        width: 30vw;
+    }
+}
